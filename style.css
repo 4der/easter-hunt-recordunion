@@ -45,6 +45,10 @@ h3{
   width: 100%;
 }
 
+.hero-text {
+  z-index: +1;
+}
+
 .header {
   background-color: #3530304f;
   color: white;
@@ -64,9 +68,10 @@ button{
 
 /* selling-point section */
 .selling-point{
+  background-color: #fc56ce;
   display: flex;
   width: 100%;
-  background-color: #fc56ce;
+
 }
 
 a:link {

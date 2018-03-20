@@ -52,7 +52,7 @@ a:active {
 
 .releases {
 display: flex;
-justify-content: space-between;
+flex-wrap: wrap;
 width: 20%;
 height: auto;
 }

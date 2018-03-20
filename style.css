@@ -4,11 +4,6 @@
   margin: 0;
 }
 
-.hero-text{
-  z-index: +2;
-  margin-bottom:30px;
-}
-
 .hero p{
   color: black;
   background-color: white;
@@ -17,6 +12,7 @@
   text-align: center;
   position: absolute;
   width: 50%;
+
 }
 
 h3{
@@ -36,7 +32,7 @@ h3{
 }
 
 .hero-text {
-  z-index: +1;
+  z-index: +1;1
 }
 
 .header {

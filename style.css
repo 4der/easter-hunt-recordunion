@@ -63,7 +63,7 @@ height: auto;
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
-  .menu, .main, .right, .hero .header .click {
+ .hero .header .click {
     width: 100%;
     height: auto;
   }

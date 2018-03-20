@@ -50,9 +50,14 @@ a:active {
   text-decoration: none;
 }
 
+
+/*Section: releases; rubriken innan skivorna*/
+
 .releasesCopy {
   height: 100px;
 }
+
+/*Releases*/
 
 .releases {
   display: flex;
@@ -84,6 +89,8 @@ a:active {
   }
 }
 
+
+/*footer*/
 .footer {
   padding: 20px, 0px, 20px, 0px;
 }

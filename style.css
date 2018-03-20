@@ -50,11 +50,38 @@ a:active {
   text-decoration: none;
 }
 
+.releasesCopy {
+  height: 100px;
+}
+
 .releases {
-display: flex;
-justify-content: space-between;
-width: 20%;
-height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.releases > div {
+  width: calc(33% - 10px);
+  margin: 5px;
+}
+
+.releases > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 600px) {
+  .releases > div {
+    width: calc(25% - 10px)
+  }
+}
+
+@media (min-width: 900px) {
+  .releases > div {
+    width: calc(20% - 10px)
+  }
 }
 
 .footer {

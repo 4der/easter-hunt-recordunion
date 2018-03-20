@@ -50,6 +50,17 @@ a:active {
   text-decoration: none;
 }
 
+.releases {
+display: flex;
+justify-content: space-between;
+width: 20%;
+height: auto;
+}
+
+.footer {
+  padding: 20px, 0px, 20px, 0px;
+}
+
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
   .menu, .main, .right, .hero .header .click {

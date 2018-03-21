@@ -140,8 +140,8 @@ a:active {
 }
 
 /*Section: releases; rubriken innan skivorna*/
-.releasesCopy {
-  height: 100px;
+.releasesCopy > h1 {
+  padding: 25px 
 }
 
 /*Releases*/

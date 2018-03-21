@@ -12,16 +12,13 @@
 h1{
   color: #000075;
   font-size: 59px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 0px 40px 0px 40px;
 }
 
 h2{
   color: #ffffff;
   font-size: 25px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding: 25px;
+  padding: 25px 40px 25px 40px;
 }
 
 /*Hero*/

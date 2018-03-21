@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  /* Ask about font sofia */
   margin: 0;
 }
 
@@ -15,53 +14,42 @@ h2{
   font-size: 25px;
 }
 
-.hero p {
-  background-color: #ff5555;
-  font-size: 25px;
-  text-align: left;
-  position: absolute;
-  top: 70%;
-  left: 50px;
-  transform: translate(-50%, -50%);
-  color: white;
-  width: 30%;
-  margin-left: 12%;
-
+.hero-text p{
+background-color: #ff5555;
+bottom: 0px;
+color: black;
+font-size: 25px;
+text-align: center;
+position: absolute;
+padding: 10px;
 }
-
 
 @media (max-width: 600px) {
-.hero > p {
-width: calc(25% - 10px)
+.hero-text{
+
   }
 }
-
-@media (min-width: 900px) {
-.hero > p {
-  width: calc(45% - 10px);
-
-}
-
-}
-.hero {
+.hero p{
   color: black;
   background-color: white;
   font-size: 20px;
   font-family: monospace;
   text-align: center;
-  position: relative;
-
-
+  position: absolute;
+  width: 50%;
 }
 
 
-.hero>img {
+.hero img {
   display: flex;
   height: auto;
   justify-content: center;
   width: 100%;
 }
 
+.hero-text {
+  z-index: +1;
+}
 
 .header {
   background-color: #3530304f;
@@ -74,9 +62,7 @@ width: calc(25% - 10px)
   padding-bottom: 30px;
   position: fixed;
   width: 100%;
-  z-index: +3;
 }
-
 /* layout buttons */
 button{
   background-color: #2effc3;
@@ -93,161 +79,148 @@ button:hover {
     color: #333333;
 }
 
-@media screen and (max-width: 1200px)
-.btn {
+@media screen and (max-width: 1200px) {
+  .btn {
     margin-bottom: 10px;
     border-radius: 20px;
     padding: 0 20px;
     line-height: 2.5;
     font-size: 1.3em;
-
-
-/* selling-point section */
-.selling-point{
-  background-color: #fc56ce;
-  display: flex;
-  width: 100%;
-
-}
-
-a:link {
-  color: white;
-  text-decoration: none;
-}
-
-/* visited link */
-
-a:visited {
-  color: white;
-  text-decoration: none;
-}
-
-/* mouse over link */
-
-a:hover {
-  color: lightgrey;
-  text-decoration: none;
-}
-
-/* selected link */
-
-a:active {
-  color: grey;
-  text-decoration: none;
-}
-
-
-/*Section: releases; rubriken innan skivorna*/
-
-.releasesCopy {
-  height: 100px;
-}
-
-/*Releases*/
-
-.releases {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  height: auto;
-}
-
-.releases > div {
-  width: calc(33% - 10px);
-  margin: 5px;
-}
-
-.releases > div > img {
-  width: 100%;
-  height: 100%;
-}
-
-
-/*footer*/
-
-footer {
-  width: 100%;
-  font-size: 13px;
-  line-height: 1.7;
-}
-
-.footercontainer1 {
-  margin-top: 25px;
-  background-color: rgba(0, 0, 255, 0.3);
-}
-
-.distribution {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
-}
-
-.distribution > img {
-  padding: 10px;
-  width: auto;
-  height: auto;
-
-}
-
-footer > p {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.footercontainer2 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-bottom: 25px;
-  padding-left: 35px;
-}
-
-.footer-info {
-  width: 100%;
-  padding-top: 25px;
-}
-
-ul {
-  padding: 0px;
-}
-
-
-h4 {
-  color: #4c4c4c;
-  font-size: 14px;
-}
-
-
-
-
-@media (min-width: 600px) {
-  .releases > div {
-    width: calc(25% - 10px)
-  }
-  .footer-info {
-    width: 45%;
   }
 }
 
-@media (min-width: 900px) {
-  .releases > div {
-    width: calc(20% - 10px)
-  }
-  .footer-info {
-    width: 15%;
-    padding-bottom: 25px;
-  }
-}
+  /* selling-point section */
+  .selling-point {
+    background-color: #fc56ce;
+    display: flex;
+    width: 100%;
 
+  }
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
- .hero .header .click {
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: lightgrey;
+    text-decoration: none;
+  }
+
+  /* selected link */
+  a:active {
+    color: grey;
+    text-decoration: none;
+  }
+
+  /*Section: releases; rubriken innan skivorna*/
+  .releasesCopy {
+    height: 100px;
+  }
+
+  /*Releases*/
+  .releases {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
   }
-}
+
+  .releases > div {
+    width: calc(33% - 10px);
+    margin: 5px;
+  }
+
+  .releases > div > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*footer*/
+  footer {
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .footercontainer1 {
+    margin-top: 25px;
+    background-color: rgba(0, 0, 255, 0.3);
+  }
+
+  .distribution {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  }
+
+  .distribution > img {
+    padding: 10px;
+    width: auto;
+    height: auto;
+
+  }
+
+  footer > p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .footercontainer2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    padding-left: 35px;
+  }
+
+  .footer-info {
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  ul {
+    padding: 0px;
+  }
+
+  h4 {
+    color: #4c4c4c;
+    font-size: 14px;
+  }
+
+  @media (min-width: 600px) {
+    .releases > div {
+      width: calc(25% - 10px)
+    }
+  }
+
+  @media (min-width: 900px) {
+    .releases > div {
+      width: calc(20% - 10px)
+    }
+  }
+
+
+  /*footer*/
+  .footer {
+    padding: 20px 0px 20px 0px;
+  }
+
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .hero .header .click {
+      width: 100%;
+      height: auto;
+    }
+  }

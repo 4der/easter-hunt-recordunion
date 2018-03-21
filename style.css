@@ -12,11 +12,13 @@
 h1{
   color: #000075;
   font-size: 59px;
+  padding-left: 40px;
 }
 
 h2{
   color: #ffffff;
   font-size: 25px;
+  padding-left: 40px;
 }
 
 /*Hero*/
@@ -85,13 +87,20 @@ button{
   border-style: none;
   color: #000075;
   font-size:1.3em;
-  text-align: center;
   margin: 25px;
+  text-align: center;
+}
+
+button > a:link {
+  color: #000075;
+
+}
+button > a:visited {
+  color: #000075;
 }
 
 button:hover {
   background-color: #ffce00 ; /* yellow */
-  color: #333333;
 }
 
 @media screen and (max-width: 1200px) {

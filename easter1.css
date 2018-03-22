@@ -1,3 +1,16 @@
 body {
   background-color: #ffce00
 }
+
+.gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}

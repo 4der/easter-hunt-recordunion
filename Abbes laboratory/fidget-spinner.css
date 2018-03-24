@@ -1,0 +1,20 @@
+body {
+  background-color: #fffa23
+}
+
+.spinnerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sendsToFunction {
+  border-radius: 50%;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+
+}

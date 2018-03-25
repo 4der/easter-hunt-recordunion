@@ -10,7 +10,10 @@
   <p> You won! Choose how many pixels of chocolate you want to eat! </p>
 
   <div class="chocolateBox">
-      <div class="chocolateBarDiv"></div>
+      <div id="chocolateBarDiv"></div>
+  </div>
+  <div class="inputDiv">
+      <input type="number" maxlength="4" step="100" onchange="chocolateBarDiv.style.width=this.value+'px'">
   </div>
 
   </body>

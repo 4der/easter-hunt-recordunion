@@ -13,12 +13,22 @@ p {
 
 }
 
-.chocolateBarDiv {
+#chocolateBarDiv {
   background-image: url("./media/chocolate-bar-by-abbe-cropped.jpg");
-  width: 1040px;
+  /*width: 1040px;*/
+  width: 0px;
   height: 319px;
+  transition: width 3s ease 500ms;
 }
 
 .chocolateBar {
   
+}
+
+.inputDiv {
+  height: 50px;
+  background-color: #fc56ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

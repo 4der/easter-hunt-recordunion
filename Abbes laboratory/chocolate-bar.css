@@ -39,6 +39,7 @@ p {
   width: 0px;
   height: 319px;
   transition: width 5s ease 500ms;
+  border-radius: 20px;
 }
 
 .chocolateBar {

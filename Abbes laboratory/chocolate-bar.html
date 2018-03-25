@@ -7,14 +7,30 @@
   </head>
   <body>
 
-  <p> You won! Choose how many pixels of chocolate you want to eat! </p>
+  <header>
+  <p> You won! Nock your self out!</p>
+  Choose how many pixels of chocolate you want :P
+  </header>
 
-  <div class="chocolateBox">
-      <div id="chocolateBarDiv"></div>
+  <section>
+      <div class="greenContainer">
+        <div class="chocolateBox">
+            <div id="chocolateBarDiv"></div>
+        </div>
+      </div>
+      <div class="inputDiv">
+      I want ... &nbsp;
+      <input id="numberInput"
+             title="chocolateInput"
+             type="number"
+             step="100"
+             placeholder="&nbsp; ? &nbsp;"
+             min="0"
+             max="1000"
+             onchange="chocolateBarDiv.style.width=this.value+'px'">
+      &nbsp; ... pixels of chocolate!
   </div>
-  <div class="inputDiv">
-      <input type="number" maxlength="4" step="100" onchange="chocolateBarDiv.style.width=this.value+'px'">
-  </div>
+  </section>
 
   </body>
 </html>

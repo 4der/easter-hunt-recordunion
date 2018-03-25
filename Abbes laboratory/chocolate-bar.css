@@ -1,15 +1,9 @@
-body {
-  background-color: #fffa23
-}
-
-.spinnerBox {
+.chocolateBox {
+  height: 450px;
+  background-color: #2effc3;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-#sendsToFunction {
-  border-radius: 50%;
 }
 
 p {
@@ -17,4 +11,14 @@ p {
   color: black;
   font-size: 50px;
 
+}
+
+.chocolateBarDiv {
+  background-image: url("./media/chocolate-bar-by-abbe-cropped.jpg");
+  width: 1040px;
+  height: 319px;
+}
+
+.chocolateBar {
+  
 }

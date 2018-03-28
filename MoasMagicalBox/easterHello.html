@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>Hello Easter</title>
+<link rel="stylesheet" href="./easterHello.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
 <body>
 
-<div onMouseover="mOver(this)" onMouseout="mOut(this)"
+<div class="bigBox">
+
+    <p>I'm hiding!</p>
+
+<div class="surprise" onMouseover="mOver(this)" onMouseout="mOut(this)"
 style="background-color:yellow;font-size:40px;width:150px;height:150px;padding:40px;">
 </div>
 
 <script>
 function mOver(obj) {
-    obj.innerHTML = "Hi. Happy Easter!🐣"
-
+    obj.innerHTML = "Hi. Happy Easter!!🐣"
 }
 
 function mOut(obj) {
@@ -18,4 +25,7 @@ function mOut(obj) {
 }
 </script>
 
+</div>
+
 </body>
+</html>

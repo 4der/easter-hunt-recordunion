@@ -1,0 +1,29 @@
+body {
+    background-color: yellow;
+    font-family: sofia-pro, 'Montserrat';
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+}
+
+
+.bigBox {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.surprise {
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+}

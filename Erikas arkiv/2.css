@@ -116,7 +116,6 @@ button:hover {
   flex-wrap: wrap;
   height: auto;
   width: 100%;
-  height: auto;
 }
 
 .releases>div {
@@ -124,10 +123,11 @@ button:hover {
   width: calc(33% - 10px);
 }
 
-.calendar-box>img, .calendar-box>a>img {
+div >img, div > a > img {
   width: 300px;
   height: 300px;
 
+  /* NY */
   background-size: cover;
   /* width: calc(33% - 10px); */
 }
@@ -141,6 +141,7 @@ button:hover {
   display: block;
 }
 
+/* NY - behåll ist tidigare version */
 footer {
   font-size: 13px;
   line-height: 1.7;

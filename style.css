@@ -32,25 +32,25 @@ h4 {
     font-size: 14px;
 }
 
-a:link {
+.header > a:link, .selling-point > a:link {
     color: white;
     text-decoration: none;
 }
 
 /* visited link */
-a:visited {
+.header > a:visited, .selling-point > a:visited {
     color: white;
     text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
+.header > a:hover, .selling-point > a:hover {
     color: lightgrey;
     text-decoration: none;
 }
 
 /* selected link */
-a:active {
+.header > a:active, .selling-point > a:active {
     color: grey;
     text-decoration: none;
 }
@@ -68,14 +68,21 @@ button {
 
 button > a:link {
     color: #000075;
+    text-decoration: none;
 }
 
 button > a:visited {
     color: #000075;
+    text-decoration: none;
 }
 
-button:hover {
+button > a:hover {
     background-color: #ffce00; /* yellow */
+    text-decoration: none;
+}
+
+button > a:active {
+    text-decoration: none;
 }
 
 header {
@@ -150,12 +157,12 @@ footer {
     width: 100%;
 }
 
-.releases > div {
+.coverBox {
     margin: 5px;
     width: calc(33% - 10px);
 }
 
-.releases > div > img {
+.cover {
     height: 100%;
     width: 100%;
 }

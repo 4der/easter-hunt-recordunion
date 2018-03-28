@@ -1,0 +1,19 @@
+html {
+    height: 90%;
+}
+
+body {
+    height: 90%;
+    background-color: #c3e2e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigBox {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

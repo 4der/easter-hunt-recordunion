@@ -2,10 +2,13 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./snack-bar.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
 
-<button onclick="quack()"> 🐥 Quack, Quack </button>
+Error: do NOT press here! -->
+<button onclick="quack()"> 🐥 Quack, quack </button>
 
 <div id="snackbar"> Happy Easter! 🐣 </div>
 
@@ -16,31 +19,6 @@ function quack() {
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
 </script>
-
-<style>
-#snackbar {
-    visibility: hidden;
-    min-width: 500x;
-    margin-left: -125px;
-    background-color: #ffa500;
-    color: #FFD700;
-    text-align: center;
-    border-radius: 2px;
-    padding: 16px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    bottom: 30px;
-    font-size: 90px;
-}
-
-#snackbar.show {
-    visibility: visible;
-    -webkit-animation: fadein 5.0s, fadeout 0.10s 4.5s;
-    animation: fadein 1.5s, fadeout 1.5s 3.5s;
-}
-}
-</style>
 
 </body>
 </html>

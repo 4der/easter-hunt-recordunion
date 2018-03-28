@@ -1,0 +1,28 @@
+body {
+    font-family: sofia-pro, 'Montserrat';
+    font-size: 1.3em;
+    padding: 30px;
+    background-color: #ff45b3;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 500px;
+    margin-left: -125px;
+    background-color: #ffa500;
+    color: #FFD700;
+    text-align: center;
+    border-radius: 15px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 90px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 5.0s, fadeout 0.10s 4.5s;
+    animation: fadein 1.5s, fadeout 1.5s 3.5s;
+}

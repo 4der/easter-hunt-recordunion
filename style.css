@@ -77,12 +77,16 @@ button > a:visited {
 }
 
 button > a:hover {
-    background-color: #ffce00; /* yellow */
+    background-color: #ffce00;
     text-decoration: none;
 }
 
 button > a:active {
     text-decoration: none;
+}
+
+button:hover {
+    background-color: #ffce00;
 }
 
 header {

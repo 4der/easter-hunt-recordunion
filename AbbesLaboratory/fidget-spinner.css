@@ -1,14 +1,23 @@
 body {
-  background-color: #fffa23
+  background-color: #fffa23;
+  font-family: sofia-pro, 'Montserrat';
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .spinnerBox {
+  width: 90%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #sendsToFunction {
+  height: 520px;
+  width: 520px;
   border-radius: 50%;
 }
 

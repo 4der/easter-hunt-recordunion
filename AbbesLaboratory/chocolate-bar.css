@@ -1,5 +1,6 @@
 body {
-
+  font-family: sofia-pro, 'Montserrat';
+  font-size: 1.3em;
 }
 
 header {
@@ -35,7 +36,7 @@ p {
 }
 
 #chocolateBarDiv {
-  background-image: url("./media/chocolate-bar-by-abbe-cropped.jpg");
+  background-image: url("./chocolate-bar-by-abbe-cropped.jpg");
   width: 0px;
   height: 319px;
   transition: width 5s ease 500ms;
